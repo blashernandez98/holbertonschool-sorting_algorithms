@@ -44,7 +44,7 @@ listint_t *find_head(listint_t *node)
 
 void insertion_sort_list(listint_t **list)
 {
-	listint_t *cursor = NULL, *aux = NULL, *prev = NULL;
+	listint_t *cursor = NULL, *aux = NULL;
 
 	if (list)
 	{
